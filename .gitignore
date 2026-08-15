@@ -1,0 +1,27 @@
+# Rust
+target/
+*.wasm
+
+# Node
+node_modules/
+dist/
+.next/
+tsconfig.tsbuildinfo
+
+# Environment
+.env
+.env.local
+
+# Stellar / Soroban
+.soroban/
+.stellar/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
