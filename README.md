@@ -1,6 +1,13 @@
 # AgentTrust
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Built on Stellar](https://img.shields.io/badge/Built%20on-Stellar-brightgreen)](https://stellar.org)
+[![Soroban](https://img.shields.io/badge/Soroban-Smart%20Contracts-blueviolet)](https://soroban.stellar.org)
+[![Live App](https://img.shields.io/badge/Live-agenttrust--team.vercel.app-black)](https://agenttrust-team.vercel.app)
+
 ### The Trust Layer for AI Agents on Stellar
+
+> **Live at [agenttrust-team.vercel.app](https://agenttrust-team.vercel.app)** | **[Documentation](docs/architecture.md)** | **[SDK Quickstart](docs/sdk-quickstart.md)**
 
 ---
 
