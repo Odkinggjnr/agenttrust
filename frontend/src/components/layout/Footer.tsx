@@ -88,7 +88,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Odkinggjnr/agenttrust"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
