@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/registry", label: "Registry" },
   { href: "/verify", label: "Verify" },
   { href: "/register", label: "Register" },
+  { href: "/disputes", label: "Disputes" },
   { href: "/analytics", label: "Analytics" },
 ];
 
