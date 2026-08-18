@@ -1,3 +1,5 @@
+import { STROOPS_PER_XLM, MAX_SCORE } from "./constants";
+
 export function truncateAddress(
   address: string,
   start: number = 4,
@@ -10,7 +12,7 @@ export function truncateAddress(
 
 export function formatXLM(stroops: string | number): string {
   const stroopsBigInt = typeof stroops === "string" ? BigInt(stroops) : BigInt(Math.round(stroops));
-  const xlm = Number(stroopsBigInt) / 10_000_000;
+  const xlm = Number(stroopsBigInt) / STROOPS_PER_XLM;
   const parts = xlm.toFixed(2).split(".");
   parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   return `${parts.join(".")} XLM`;
@@ -63,7 +65,7 @@ export function getScoreColor(score: number): string {
 }
 
 export function getScorePercent(score: number): number {
-  return Math.min(100, Math.max(0, score / 100));
+  return Math.min(100, Math.max(0, (score / MAX_SCORE) * 100));
 }
 
 export function generateIdenticon(address: string): number[][] {
